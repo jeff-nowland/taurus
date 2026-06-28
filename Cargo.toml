@@ -5,5 +5,6 @@ edition = "2024"
 
 [dependencies]
 clap = { version = "4.6.1", features = ["derive"] }
+clap-cargo = "0.18.3"
 memmap2 = "0.9.11"
 rust-yaml = "1.1.0"
