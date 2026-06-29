@@ -1,4 +1,4 @@
-use clap::{Command};
+use clap::Command;
 
 pub mod taurus;
 
@@ -13,7 +13,7 @@ fn main() {
     };
 }
 
-use clap::builder::styling::{Styles};
+use clap::builder::styling::Styles;
 use clap_cargo::style::*;
 
 const CLAP_STYLE: Styles = Styles::styled()
